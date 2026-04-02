@@ -8,9 +8,10 @@ interface ProjectCardProps {
   image: string;
   index: number;
   span?: string;
+  repo?: string;
 }
 
-const ProjectCard = ({ title, description, tags, image, index, span = "" }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, tags, image, index, span = "", repo }: ProjectCardProps) => {
   const [rotate, setRotate] = useState({ x: 0, y: 0 });
   const cardRef = useRef<HTMLDivElement>(null);
 
@@ -66,7 +67,7 @@ const ProjectCard = ({ title, description, tags, image, index, span = "" }: Proj
           <p className="text-muted-foreground font-body text-sm mb-4 leading-relaxed">
             {description}
           </p>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 mb-4">
             {tags.map((tag) => (
               <span
                 key={tag}
@@ -76,6 +77,17 @@ const ProjectCard = ({ title, description, tags, image, index, span = "" }: Proj
               </span>
             ))}
           </div>
+          {/* Affichage du lien vers le dépôt */}
+          {repo && (
+            <a
+              href={repo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+            >
+              <span>🔗</span> Code source →
+            </a>
+          )}
         </div>
         <div className="absolute inset-0 border border-primary/0 group-hover:border-primary/20 rounded-lg transition-all duration-300 pointer-events-none" />
       </div>

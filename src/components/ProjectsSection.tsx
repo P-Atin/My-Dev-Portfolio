@@ -10,6 +10,7 @@ const projects = [
     tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
     image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&auto=format&fit=crop",
     span: "col-span-1 md:col-span-2",
+    repo: "https://github.com/P-Atin/My-Dev-Portfolio",
   },
   {
     title: "Site E-commerce (Projet fin d'année)",
@@ -18,6 +19,7 @@ const projects = [
     tags: ["React", "Node.js", "Express", "JavaScript"],
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop",
     span: "col-span-1",
+    repo: "https://gitlab.com/fullstack9585502/website_ecommerce_react",
   },
   {
     title: "Site E-commerce Entreprise",
@@ -26,6 +28,7 @@ const projects = [
     tags: ["HTML/CSS", "JavaScript", "PHP"],
     image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&auto=format&fit=crop",
     span: "col-span-1",
+    repo: "https://github.com/Blizz-07/Site-MGS",
   },
   {
     title: "Game Jam",
@@ -34,6 +37,7 @@ const projects = [
     tags: ["GDevelop", "PhaserJS", "Löve", "GameMaker"],
     image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&auto=format&fit=crop",
     span: "col-span-1 md:col-span-2",
+    repo: "https://www.linkedin.com/feed/update/urn:li:activity:7264668952914538497/?originTrackingId=MX65XB3dvSe0Xf2X58Tsmg%3D%3D",
   },
 ];
 
