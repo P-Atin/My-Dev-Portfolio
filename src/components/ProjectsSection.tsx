@@ -22,13 +22,13 @@ const projects = [
     repo: "https://gitlab.com/fullstack9585502/website_ecommerce_react",
   },
   {
-    title: "Site E-commerce Entreprise",
+    title: "Générateur de README",
     description:
-      "Conception en équipe d'un site e-commerce pour une enseigne de vêtements et accessoires de sport, réalisé avec HTML/CSS, JavaScript et PHP.",
-    tags: ["HTML/CSS", "JavaScript", "PHP"],
-    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&auto=format&fit=crop",
+      "Application web développée avec React et Vite permettant de générer des README.md avec rendu Markdown en temps réel, sauvegarde automatique via LocalStorage et export de fichiers.",
+    tags: ["React", "Vite", "TypeScript", "Markdown"],
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop",
     span: "col-span-1",
-    repo: "https://github.com/Blizz-07/Site-MGS",
+    repo: "https://github.com/P-Atin/readme-generator",
   },
   {
     title: "Game Jam",
@@ -54,9 +54,6 @@ const ProjectsSection = () => {
           transition={{ duration: 0.8 }}
           className="mb-16"
         >
-          <p className="text-base font-body tracking-[0.3em] text-primary uppercase mb-3 font-semibold">
-            Travaux Sélectionnés
-          </p>
           <h2 className="font-heading text-5xl sm:text-6xl font-bold text-foreground">
             Projets
             <br />

@@ -13,7 +13,7 @@ const skills = [
 
 const highlights = [
   { icon: Coffee, title: "3000+ Cafés", desc: "Et ça continue" },
-  { icon: Heart, title: "Open Source", desc: "Contributeur actif" },
+  { icon: Heart, title: "Apprentissage", desc: "En amélioration continue" },
 ];
 
 const AboutSection = () => {
