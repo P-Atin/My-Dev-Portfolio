@@ -32,18 +32,17 @@ const ContactSection = () => {
     setLoading(true);
     setSuccess(null);
 
-    emailjs
-      .send(
-        "service_fv4vcdb",
-        "template_mrj7mto",
-        {
-          from_name: form.name,
-          from_email: form.email,
-          subject: form.subject,
-          message: form.message,
-        },
-        "M6KjbXCx0sJe41gkX"
-      )
+    emailjs.send(
+      "service_fv4vcdb",
+      "template_mrj7mto",
+      {
+        name: form.name,
+        email: form.email,
+        subject: form.subject,
+        message: form.message,
+      },
+      "M6KjbXCx0sJe41gkX"
+    )
       .then(() => {
         setLoading(false);
         setSuccess(true);
