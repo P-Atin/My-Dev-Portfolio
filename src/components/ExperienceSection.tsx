@@ -4,6 +4,13 @@ import CV from "../assets/CV_Patrice_Atin.pdf";
 
 const experiences = [
   {
+    year: "Avril 2026",
+    role: "Développeur Full Stack",
+    company: "FlightPulse AI",
+    description:
+      "Plateforme de prédiction de prix de vols avec IA. Frontend Next.js 15 avec Tailwind CSS et Framer Motion. Backend Express avec Prisma ORM et PostgreSQL. Déploiement Vercel et Render avec Docker.",
+  },
+  {
     year: "Mars 2026",
     role: "Développeur Full Stack",
     company: "Générateur de README",
