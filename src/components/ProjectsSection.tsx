@@ -4,6 +4,16 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    title: "FlightPulse AI",
+    description:
+      "Plateforme de prédiction de prix de vols utilisant l'IA. Recherche de vols en temps réel, graphiques de prédiction, alertes de prix, favoris et authentification JWT. Déployé avec Next.js, Express, PostgreSQL et Docker.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Express", "Prisma", "PostgreSQL", "Docker"],
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109bb05?w=800&auto=format&fit=crop",
+    span: "col-span-1 md:col-span-2",
+    repo: "https://github.com/P-Atin/flightPulse_AI",
+    live: "https://flightpulse-ai.vercel.app",
+  },
+  {
     title: "Portfolio Personnel",
     description:
       "Portfolio regroupant mes projets académiques et personnels, illustrant mes compétences en développement, conception et résolution de problématiques techniques.",
